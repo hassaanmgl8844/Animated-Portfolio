@@ -38,6 +38,21 @@ const Navbar = () => {
         <Link href={"https://github.com/hassaammgl"} target="_blank">
           <Image src="/github.png" alt="github" width={24} height={24} />
         </Link>
+        <Link href={"https://github.com/hassaammgl"} target="_blank">
+          <Image src="/dribbble.png" alt="github" width={24} height={24} />
+        </Link>
+        <Link href={"https://github.com/hassaammgl"} target="_blank">
+          <Image src="/instagram.png" alt="github" width={24} height={24} />
+        </Link>
+        <Link href={"https://github.com/hassaammgl"} target="_blank">
+          <Image src="/facebook.png" alt="github" width={24} height={24} />
+        </Link>
+        <Link href={"https://github.com/hassaammgl"} target="_blank">
+          <Image src="/pinterest.png" alt="github" width={24} height={24} />
+        </Link>
+        <Link href={"https://www.linkedin.com/in/m-hassaam-mughal-91668a256/"} target="_blank">
+          <Image src="/linkedin.png" alt="github" width={24} height={24} />
+        </Link>
       </div>
       {/* RESPONSIVE MENU  */}
       <div className="md:hidden">
