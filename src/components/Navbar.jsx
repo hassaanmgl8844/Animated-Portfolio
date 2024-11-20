@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -15,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
       <div className="hidden md:flex  gap-4">
-        {links.map(link =>(
+        {links.map((link) => (
           <Link href={link.url} key={link.title}>
             {link.title}
           </Link>
@@ -31,6 +32,11 @@ const Navbar = () => {
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
             .dev
           </span>
+        </Link>
+      </div>
+      <div className="">
+        <Link href={"https://github.com/hassaammgl"} target="_blank">
+          <Image src="/github.png" alt="github" width={24} height={24} />
         </Link>
       </div>
       {/* RESPONSIVE MENU  */}
