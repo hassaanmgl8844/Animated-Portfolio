@@ -20,9 +20,6 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 w-1/3">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
-          // <Link href={link.url} key={link.title}>
-          //   {link.title}
-          // </Link>
         ))}
       </div>
       {/* LOGO */}
@@ -38,21 +35,12 @@ const Navbar = () => {
         </Link>
       </div>
       {/* SOCIAL  */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/3 justify-end">
         <Link href={"https://github.com/hassaammgl"} target="_blank">
           <Image src="/github.png" alt="github" width={24} height={24} />
         </Link>
         <Link href={"https://github.com/hassaammgl"} target="_blank">
-          <Image src="/dribbble.png" alt="github" width={24} height={24} />
-        </Link>
-        <Link href={"https://github.com/hassaammgl"} target="_blank">
           <Image src="/instagram.png" alt="github" width={24} height={24} />
-        </Link>
-        <Link href={"https://github.com/hassaammgl"} target="_blank">
-          <Image src="/facebook.png" alt="github" width={24} height={24} />
-        </Link>
-        <Link href={"https://github.com/hassaammgl"} target="_blank">
-          <Image src="/pinterest.png" alt="github" width={24} height={24} />
         </Link>
         <Link href={"https://www.linkedin.com/in/m-hassaam-mughal-91668a256/"} target="_blank">
           <Image src="/linkedin.png" alt="github" width={24} height={24} />
